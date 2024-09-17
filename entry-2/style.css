@@ -5,6 +5,7 @@ body {
     }
 
 .column::after {
+  display:flex;
   float: left;
   width: 30%;
   padding: 3px;
