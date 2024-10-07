@@ -1,0 +1,78 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-color: rgb(245, 239, 224);
+    font-size: 20px;
+    overflow:auto;
+    padding: 0;
+	margin: 0;
+    }
+
+.home {
+text-align: inherit;  
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+font-weight: 200;
+border-style: solid;
+text-decoration: none;
+color:rgb(53, 88, 60);
+}
+
+.text{
+	font-family:'Courier New', Courier, monospace;
+	font-size: 60px;
+    font-weight: 300;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	margin-left: 50%;
+	transform: translateX(-200%);
+	opacity: 0;
+	animation: slide-in-anim 1.5s ease-out forwards;
+}
+
+@keyframes slide-in-anim {
+	20% {
+		opacity: 0;
+	}
+	60% {
+		transform: translateX(-45%);
+	}
+	75% {
+		transform: translateX(-52%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(-50%);
+	}
+}
+
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+
+  .fadeInUp-animation {
+    animation: 2.5s fadeInUp;
+    height:300px;
+  }
+
+  .emphasis {
+    font-size: 2rem;
+    line-height: 1;
+    transition: line-height 0.5s ease;
+  }
+
+  .emphasis:hover {
+    line-height: 2;
+    color:pink;
+  }
+
+  .lowertextsoho {
+    font-size: 20px;
+  }
