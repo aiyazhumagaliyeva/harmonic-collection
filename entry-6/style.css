@@ -1,0 +1,109 @@
+body {
+  background-color: rgb(238, 249, 236);
+  overflow: auto;
+  display:block;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+select:focus, input:focus, button:focus {
+  outline: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.box {
+  position: relative;
+  transform-style: preserve-3d;
+  animation: animate 7s ease-in-out infinite alternate;
+  display:block;
+  justify-content: center; 
+  align-items: center;
+  height:100px;
+}
+
+span {
+  position: absolute;
+  color: #326ece;
+  font-size: 3.5em;
+  white-space: nowrap;
+  font-weight: bold;
+  padding: 0px 10px;
+  transform-style: preserve-3d;
+  transform: translate(-50%, -50%) rotateX(calc(var(--i) * 22.5deg)) translateZ(109px);
+  left: 50%; 
+  top: 50%; 
+}
+
+span i:nth-child(1) {
+  color: #8fece4; 
+}
+
+span i:nth-child(2) {
+  color:#1b129c; 
+}
+
+@keyframes animate {
+  0% {
+    transform: perspective(500px) rotateX(0deg) rotate(5deg);
+  }
+  100% {
+    transform: perspective(50px) rotateX(360deg) rotate(5deg);
+  }
+}
+
+#exp {
+  font-size: 20px;
+  color:rgb(56, 132, 26);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#square0 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.entry-img {
+  width: 150px; /* Adjust as necessary */
+  height: 150px; /* Adjust as necessary */
+  margin: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  display:inline-block;
+}
+
+.entry-img:hover {
+  transform: scale(2);
+}
+/*
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+}
+img {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+}*/
+

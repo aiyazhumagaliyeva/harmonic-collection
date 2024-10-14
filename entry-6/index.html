@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harmonic Collection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <span style="--i: 1">
+        <i>Aiya's</i>
+        Harmonic
+        <i>Collection</i>
+      </span>
+      <span style="--i: 2">
+        <i>Aiya's</i>
+        Harmonic
+        <i>Collection</i>
+      </span>
+      <span style="--i: 3">
+        <i>Aiya's</i>
+        Harmonic
+        <i>Collection</i>
+      </span>
+      <span style="--i: 4">
+        <i>Aiya's</i>
+        Harmonic
+        <i>Collection</i>
+      </span>
+      <!-- Add more spans if needed -->
+    </div>
+  </div>
+
+  <div id="square0">
+    <p id="exp"> 
+      Harmonic collection is a collection of 9 entrees. 
+      Each entree has its own narrative and vibe :)
+    </p>
+    <br>
+    <a href="entry-1/index.html">
+      <img src="images/flower icon 1.png" alt="Entry 1" class="entry-img">
+    </a>
+    <a href="entry-2/index.html">
+      <img src="images/flower icon 2.png" alt="Entry 2" class="entry-img"> 
+    </a>
+    <!-- Add more entries if needed -->
+  </div>
+
+  <script>
+    // JavaScript to stop animation on hover
+    document.querySelector('.box').addEventListener('mouseover', function() {
+      this.style.animationPlayState = 'paused';
+    });
+
+    document.querySelector('.box').addEventListener('mouseout', function() {
+      this.style.animationPlayState = 'running';
+    });
+  </script>
+
+</body>
+</html>
