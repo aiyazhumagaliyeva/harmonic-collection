@@ -18,7 +18,7 @@ color:rgb(53, 88, 60);
 }
 
 .soho{
-	font-family:'Courier New', Courier, monospace;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 60px;
     font-weight: 300;
 	text-align: center;
@@ -75,6 +75,7 @@ color:rgb(53, 88, 60);
 
   .lowertextsoho {
     font-size: 10vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
   .text-container {
@@ -183,7 +184,7 @@ color:rgb(53, 88, 60);
 }
  
 h1{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   border: 10px;
   font-weight: 200;
   border-style:dotted;
@@ -191,7 +192,7 @@ h1{
 }
 
 h2{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   border: 10px;
   font-weight: 200;
   border-style:dotted;
@@ -200,7 +201,7 @@ h2{
 
   div:hover h2{
     animation: shake 0.8s infinite;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-style: solid;
     color:rgb(243, 123, 143);
   }

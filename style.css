@@ -1,82 +1,27 @@
 body {
-  background-color: rgb(238, 249, 236);
-  overflow: auto;
-  display:block;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(245, 239, 224);
+    font-size: 20px;
+    overflow:auto;
+    padding: 0;
+	  margin: 15;
 }
 
 * {
   box-sizing: border-box;
   margin: 10px;
   padding: 0;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
 select:focus, input:focus, button:focus {
   outline: none;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  width: 100%;
-  min-height: 100vh;
-  background-color: transparent;
-  overflow: hidden;
-  justify-content: center;
-  align-items: center;
-}
-
-.box {
-  position: relative;
-  transform-style: preserve-3d;
-  animation: animate 7s ease-in-out infinite alternate;
-  height: 150px; 
-  width: 150px; 
-  border-radius: 50%; 
-  margin-right:30px;
-}
-
-span {
-  position: absolute;
-  color: #71a7fd;
-  font-size: 3.5em;
-  white-space: nowrap;
-  font-weight: bold;
-  padding: 0px 10px;
-  transform-style: preserve-3d;
-  transform: translate(-50%, -50%) rotateX(calc(var(--i) * 22.5deg)) translateZ(109px);
-  left: 50%; 
-  top: 50%; 
-}
-
-span i:nth-child(1) {
-  color: #8fece4; 
-}
-
-span i:nth-child(2) {
-  color:#c5c1fa; 
-}
-
-@keyframes animate {
-  0% {
-    transform: perspective(500px) rotateX(0deg) rotate(5deg);
-  }
-  100% {
-    transform: perspective(50px) rotateX(360deg) rotate(5deg);
-  }
 }
 
 #exp {
   font-size: 20px;
   color:rgb(56, 132, 26);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+  font-family:Verdana, Geneva, Tahoma, sans-serif;}
 
 
 #square0 {
@@ -95,20 +40,26 @@ span i:nth-child(2) {
   display:inline-block;
 }
 
+h2{
+  font-size: 25px;
+  font-weight: 100;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .entry-img:hover {
   transform: scale(2);
 }
 
 h1{
-  font-family:fantasy;
-  font-weight: 600;
-  font-size: 47px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 580;
+  font-size: 34px;
   color:rgb(243, 123, 143);
 }
 
 .body1{
   font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .gif{
@@ -117,7 +68,7 @@ h1{
  }
 
 #marquee1{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
   size: 40px;
   border: 10px;
@@ -129,7 +80,7 @@ h1{
 }
 
 #marquee2{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
   size: 40px;
   border: 10px;
@@ -141,7 +92,7 @@ h1{
 }
 
 #marquee3{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
   size: 40px;
   border: 10px;
@@ -153,7 +104,7 @@ h1{
 }
 
 #marquee4{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
   size: 40px;
   border: 10px;
