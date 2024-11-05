@@ -30,12 +30,6 @@ body {
   --color-quaternary: #f07a6a;
   --color-quinary: #ee6352;
 }
-/*
-.content {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-}*/
 
 .text_shadows {
   text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
