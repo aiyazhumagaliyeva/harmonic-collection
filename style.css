@@ -139,6 +139,18 @@ h1{
   border-color: rgb(176, 193, 255);
 }
 
+#marquee7{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  size: 40px;
+  border: 10px;
+  font-weight: 300;
+  color:white;
+  background-color:rgb(142, 133, 245);
+  border-style:dashed;
+  border-color: rgb(254, 255, 176);
+}
+
 #entrees{
   font-size: 40px;
 }
