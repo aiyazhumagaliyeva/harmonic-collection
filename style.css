@@ -151,6 +151,19 @@ h1{
   border-color: rgb(254, 255, 176);
 }
 
+#marquee8{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  size: 40px;
+  border: 10px;
+  font-weight: 300;
+  color:white;
+  background-color:rgb(239, 180, 255);
+  border-style:dashed;
+  border-color: rgb(176, 181, 255);
+}
+
+
 #entrees{
   font-size: 40px;
 }
