@@ -1,0 +1,162 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(251, 167, 72);
+    font-size: 20px;
+    overflow: auto;
+    padding: 0;
+    margin: 30px;
+  }
+  
+  .home {
+    text-align: inherit;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    border-style: solid;
+    text-decoration: none;
+    color: rgb(53, 88, 60);
+  }
+
+  h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(229, 100, 100);
+    font-size: 130px;
+    overflow: auto;
+    padding: 0;
+  }
+
+  #marquee1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(229, 100, 100);
+    font-size: 40px;
+    overflow: auto;
+    padding: 0;
+    border: 10px;
+    font-weight: 200;
+    border-style:dotted;
+  }
+
+  .title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 580;
+    font-size: 34px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-left: 50%;
+    transform: translateX(-200%);
+    opacity: 0;
+    animation: slide-in-anim 1.5s ease-out forwards;
+  }
+  
+  @keyframes slide-in-anim {
+    20% {
+      opacity: 0;
+    }
+    60% {
+      transform: translateX(-45%);
+    }
+    75% {
+      transform: translateX(-52%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(-50%);
+    }
+  }
+  
+  @keyframes fadeInUp {
+      0% {
+        transform: translateY(100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0%);
+        opacity: 1;
+      }
+    }
+  
+    .fadeInUp-animation {
+      animation: 2.5s fadeInUp;
+      height:300px;
+    }
+
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start; 
+      gap: 20px; 
+      margin: 20px 0;
+    }
+    
+    iframe {
+      flex: 1; /* Allow the map to take up more space */
+      border-radius: 10px; /* Optional: add rounded corners */
+      border: solid 2px #ccc; /* Optional: add a border for styling */
+    }
+    
+    .p1 {
+      flex: 1; 
+      font-size: 25px; 
+      line-height: 1.6; 
+      margin: 0;
+      transition: line-height 0.5s ease;
+  }
+
+  .p1:hover {
+    line-height: 2;
+    color:rgb(255, 255, 255);
+  }
+
+  .econc{
+    display:flex;
+    height:50vh;
+  }
+  .image-container{
+    width:min-content;
+    height:10cm;
+    box-sizing: border-box;
+    align-content:center;
+    overflow:scroll;
+  }
+  
+  .scroll-container {
+    height: 50vh;
+    overflow-x: scroll;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 20px;
+  }
+  
+  .a{
+    flex: 1; 
+    font-size: 25px; 
+    line-height: 1.6; 
+    margin: 0;
+    color: aliceblue;
+    text-decoration: none; 
+    transition: all 0.3s ease; 
+    display: inline-block;
+  }
+
+  .a:hover {
+    color:rgb(182, 6, 35);
+    border:1vh;
+    font-size:40px;
+    border-style: dotted;
+  }
+
+  #marquee2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(229, 100, 100);
+    font-size: 40px;
+    overflow: auto;
+  }
+  .image-container1{
+    width:min-content;
+    height:12cm;
+    box-sizing: border-box;
+    align-content:center;
+    overflow:scroll;
+  }
