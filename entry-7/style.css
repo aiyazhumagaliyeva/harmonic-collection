@@ -2,6 +2,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:rgb(236, 138, 99);
     font-size: 20px;
+    font-weight: 200;
     overflow: auto;
     padding: 0;
     margin: 30px;
@@ -9,7 +10,7 @@ body {
   
   .home {
     text-align: inherit;  
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     font-weight: 200;
     border-style: solid;
@@ -30,14 +31,15 @@ body {
     color:rgb(176, 193, 255);
     font-weight: 750;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 90px;
+    font-size: 100px;
+    font-weight: 600;
     letter-spacing: 10px;
     text-align: center;
     text-shadow: 
-        -2px -2px 0 rgb(58, 106, 209),  
-        2px -2px 0 rgb(58, 106, 209),
-        -2px 2px 0 rgb(58, 106, 209),
-        2px 2px 0 rgb(58, 106, 209); 
+    -3px -3px 0 rgb(58, 106, 209),  
+    3px -3px 0 rgb(58, 106, 209),
+    -3px 3px 0 rgb(58, 106, 209),
+    3px 3px 0 rgb(58, 106, 209); 
         opacity: 0;
   }
   
@@ -64,6 +66,7 @@ body {
 
 p span{
   opacity: 0.1;
+  transition: opacity 1s ease;
 }
 
 p{

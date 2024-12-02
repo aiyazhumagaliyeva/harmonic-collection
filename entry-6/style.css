@@ -1,20 +1,22 @@
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: rgb(245, 239, 224);
+  background-color:rgb(58, 106, 209);
   font-size: 20px;
+  font-weight: 200;
   overflow: auto;
   padding: 0;
   margin: 30px;
+  color:white;
 }
 
 .home {
   text-align: inherit;  
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
   font-weight: 200;
   border-style: solid;
   text-decoration: none;
-  color: rgb(53, 88, 60);
+  color:rgb(255, 171, 93);
 }
 
 *,
@@ -24,7 +26,7 @@ body {
 }
 
 :root {
-  --color-primary: #f6aca2;
+  --color-primary: rgb(255, 171, 93);;
   --color-secondary: #f49b90;
   --color-tertiary: #f28b7d;
   --color-quaternary: #f07a6a;
@@ -113,8 +115,9 @@ body {
 }
 
 h1, h2 {
-  color: #484848;
-  font-size: 50px;
+  color: #46aefd;
+  font-size: 30px;
+  font-weight: 200;
   font-weight: bold;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   letter-spacing: 7px;
@@ -128,7 +131,7 @@ h1 span, h2 span {
 
 h1:hover span:nth-child(1),
 h2:hover span:nth-child(1) {
-  font-size: 60px;
+  font-size: 80px;
 }
 
 h1:hover span,
@@ -136,36 +139,14 @@ h2:hover span {
   color: pink;
 }
 
-/*
-.spoiler {
-  color: transparent;
-  background-position: right;
-  background-size: 100% 100%;
-  background-image: linear-gradient(pink, pink);
-  display: inline;
-  background-repeat: no-repeat;
-  transition: all 500ms ease-in-out;
-  font-size: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: center;
-}
-
-.spoiler:hover {
-  color: seagreen;
-  background-size: 0% 100%;
-  font-size: 50px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: center;
-}*/
-
 #marquee {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 30px;
+  font-weight: 300;
   size: 40px;
   border: 10px;
   font-weight: 300;
-  color:seagreen;
+  color:rgb(255, 171, 93);
   border-style:dashed;
   border-color: rgb(255, 176, 206);
 }
@@ -203,3 +184,7 @@ h2:hover span {
   width: 300px; 
   height: auto;
 }
+
+pre{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }

@@ -2,6 +2,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:rgb(142, 133, 245);
     font-size: 20px;
+    font-weight:200;
     overflow: auto;
     padding: 0;
     margin: 30px;
@@ -9,19 +10,26 @@ body {
   
   .home {
     text-align: inherit;  
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     font-weight: 200;
     border-style: solid;
     text-decoration: none;
-    color: rgb(53, 88, 60);
+    color: rgb(254, 255, 176);
   }
   h1{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:rgb(254, 255, 176);
     font-size: 90px;
+    font-weight:600;
     overflow: auto;
     padding: 0;
+  }
+
+  pre{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight:200;
   }
 
   * {
@@ -82,7 +90,7 @@ body {
   }
   
 #marquee1{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     size: 40px;
     border: 10px;
